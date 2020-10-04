@@ -1,6 +1,5 @@
 const chalk = require('chalk')
 const yargs = require('yargs')
-const { removeNote } = require('./notes.js')
 const notes = require('./notes.js')
 
 yargs.command({
